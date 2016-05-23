@@ -4,16 +4,17 @@ Get ELM PDF file from gitbook.
 
 ###
 
-fs = require "fs"
+fs      = require "fs"
 request = require "request"
-jsdom = require "jsdom"
-jquery = require "jquery"
-moment = require "moment"
+jsdom   = require "jsdom"
+jquery  = require "jquery"
+moment  = require "moment"
 
-now = do moment
+now  = do moment
 dfmt = "MMM Do"
-path = "https://www.gitbook.com/search?q=Elm"
-log = (x) -> console.log x;x
+path = "https://www.gitbook.com/search?q=" + "java"#"Elm"
+
+log  = (x) -> console.log x;x
 
 link = ($el) ->
   $el
