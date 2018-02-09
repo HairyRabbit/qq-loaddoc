@@ -7,7 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 WinWait, Expert Elm
 WInActivate, Expert Elm
 Send, Test
-Send, ^v
+;Send, ^v
 Send, ^{Enter}
 ; Run 
 

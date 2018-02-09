@@ -12,7 +12,7 @@ moment  = require "moment"
 
 now  = do moment
 dfmt = "MMM Do"
-path = "https://www.gitbook.com/search?q=" + "java"#"Elm"
+path = "https://www.gitbook.com/search?q=" + "Elm"#"java"
 
 log  = (x) -> console.log x;x
 
